@@ -275,7 +275,7 @@
 \midsloppy
 
 % FIXME: only if babel is english or british
-\renewcommand\britishhyphenmins{{3}{3}}
+%\renewcommand\britishhyphenmins{{3}{3}}
 
 % The lastparline or the parfillskip solution is overkill in many
 % places. It is optimal for larger paragraphs, but creates too much

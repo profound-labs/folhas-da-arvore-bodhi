@@ -3,13 +3,20 @@ toc:
   - titlepage.tex
   - copyright.tex.erb
   - { insert: "\\cleartorecto\n\\tableofcontents" }
-  - preface.md
+  - nota-de-edicao.tex
   - { insert: "\\mainmatter\n\\book{\\thetitle}" }
-  - like-a-boat.md
-  - nameless-labyrinth.markdown
-  - time-machine.markdown
-  - { insert: '\appendix' }
-  - further-comments.markdown
+  - samma-samadhi.tex
+  - nibbana.tex
+  - perspectiva.tex
+  - reparar.tex
+  - plasticidade.tex
+  - incondicionado.tex
+  - liberdade.tex
+  - practica-minhoca.tex
+  - ser-ninguem.tex
+  - emocoes-maduras.tex
+  - silenciosa-atencao.tex
+  - para-alem.tex
+  - porque-ir.tex
   - { insert: '\backmatter' }
-  - glossary.md
   - copyright-details.tex

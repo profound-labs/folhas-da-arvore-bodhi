@@ -1,0 +1,96 @@
+\documentclass[
+  final,
+  pagePreset=largepage,% 6in x 9in
+  babelLanguage=portuguese,
+  %webversion,
+]{anecdote}
+
+\usepackage{local}
+
+%% Details of the book
+%% ===================
+
+\title{Folhas da Árvore Bodhi}
+\subtitle{}
+\author{The Author}
+\publisher{Publicações Sumedhārāma}
+\date{2016-04-02}
+% TODO: confirm edition info
+\editionInfo{\textit{Primeira edição}, 2000 cópias, impressas na Malásia, 2017}
+\ISBN{000-0-000000-00-0}
+
+%% === Load further packages ===
+
+%% === Hyphenation exceptions and corrections ===
+
+% \hyphenation{}
+
+\begin{document}
+
+\ifwebversion
+\webcover{%
+\includegraphics[height=\paperheight]{./webcover.jpg}%
+}
+\fi
+
+\frontmatter
+
+\input{../.././manuscript/tex/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+% Nota de Edição
+\input{../.././manuscript/tex/nota-de-edicao.tex}
+
+\input{../.././manuscript/tex/titlepage.tex}
+
+\mainmatter
+
+% Samma Samādhi
+\input{../.././manuscript/tex/samma-samadhi.tex}
+
+% Nibbana, Aqui e Agora
+\input{../.././manuscript/tex/nibbana.tex}
+
+% A Perspectiva da Floresta
+\input{../.././manuscript/tex/perspectiva.tex}
+
+% Reparar no espaço
+\input{../.././manuscript/tex/reparar.tex}
+
+% Plasticidade Cerebral
+\input{../.././manuscript/tex/plasticidade.tex}
+
+% O Incondicionado
+\input{../.././manuscript/tex/incondicionado.tex}
+
+% Liberdade na restrição
+\input{../.././manuscript/tex/liberdade.tex}
+
+% A prática da minhoca
+\input{../.././manuscript/tex/practica-minhoca.tex}
+
+% Ser Ninguém
+\input{../.././manuscript/tex/ser-ninguem.tex}
+
+% Emoções maduras
+\input{../.././manuscript/tex/emocoes-maduras.tex}
+
+% Silenciosa atenção e mente-espelho
+\input{../.././manuscript/tex/silenciosa-atencao.tex}
+
+% Para Além do Sentido de Si
+\input{../.././manuscript/tex/para-alem.tex}
+
+% Porquê ir a um Mosteiro
+\input{../.././manuscript/tex/porque-ir.tex}
+
+\backmatter
+
+\input{../.././manuscript/tex/copyright-details.tex}
+
+%\newpage\mbox{}
+%\thispagestyle{empty}
+
+\end{document}
