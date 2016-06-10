@@ -20,7 +20,7 @@
 % ==============
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{anecdote}[2016/02/01 v0.9 A memoir-based documentclass with a contemporary style for books with a lighter content.]
+\ProvidesClass{anecdote}[2016/05/05 v0.10 A memoir-based documentclass with a contemporary style for books with a lighter content.]
 
 % ========================
 % Preliminary Declarations
@@ -67,6 +67,7 @@
 \RequirePackage{soul}
 \RequirePackage{textcomp}
 \RequirePackage[cmyk]{xcolor}
+\RequirePackage{xcoffins}
 \RequirePackage{graphicx}
 % Add your \graphicspath declaration to your local style.
 \RequirePackage{eso-pic}
@@ -78,15 +79,17 @@
 \RequirePackage{tikz}
 \usetikzlibrary{positioning}
 
+\RequirePackage{pgfornament}
+
 % === Define colors ===
 
-\definecolor{textbody}{gray}{0.15}
+\definecolor{textbody}{gray}{0.1}% 0.1 (90%) is safe. 85% is too light when produced by some printers
 \definecolor{footnoterule}{gray}{0.5}
 \definecolor{chapternum}{gray}{0.8}
 \definecolor{chaptertitle}{gray}{0.3}
 \definecolor{chapterauthor}{gray}{0.3}
 \definecolor{chapternote}{gray}{0.3}
-\definecolor{section}{gray}{0.3}
+\definecolor{section}{gray}{0.1}
 \definecolor{tocleftside}{gray}{0.5}
 \definecolor{tocleftsidepart}{gray}{0.2}
 \definecolor{partname}{gray}{0.5}
@@ -99,105 +102,66 @@
 \RequirePackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
 
-% Dummy font commands to use system defaults instead of custom fonts
-
-% TODO: comment these out and define them below as \newfontfamily
-
-\newcommand\crimsonRomanFont{}
-\newcommand\crimsonRomanFontOldNum{}
-\newcommand\gentiumFont{}
-\newcommand\headerFont{}
-\newcommand\footFont{}
-\newcommand\pageNumFont{}
-\newcommand\partTitleFont{}
-\newcommand\chapterNameFont{}
-\newcommand\chapterTitleFont{}
-\newcommand\chapterNumberFont{}
-\newcommand\chapterAuthorFont{}
-\newcommand\chapterNoteFont{}
-\newcommand\sectionFont{}
-\newcommand\tocFont{}
-\newcommand\tocFontOldNum{}
-
 % If -- dashes don't work for your font, try
 % Renderer = Basic
 % http://tex.stackexchange.com/questions/20580/how-to-enable-ligatures-for-emdash-endash-in-luatex
 
-%% by filename:
+\setmainfont[
+  SmallCapsFont = Crimson Roman,
+  SmallCapsFeatures= { Ligatures = TeX, Letters = SmallCaps, Scale = 0.8, LetterSpace = 0.2 },
+  ItalicFont = Gentium Plus Italic,
+  BoldFont = Gentium Book Basic Bold,
+  BoldItalicFont = Gentium Book Basic Bold Italic,
+]{Gentium Plus}
 
-%\setmainfont[
-%  Path = {./fonts/},
-%  SmallCapsFont = Crimson-Roman.otf,
-%  SmallCapsFeatures= { Ligatures = TeX, Letters = SmallCaps },
-%  ItalicFont = GentiumPlus-I.ttf,
-%  BoldFont = GenBkBasB.ttf,
-%  BoldItalicFont = GenBkBasBI.ttf,
-%]{GentiumPlus-R.ttf}
-%
-%\newfontfamily\crimsonRomanFont[
-%  Path = {./fonts/},
-%  ItalicFont = Crimson-Italic.otf,
-%  BoldFont = Crimson-Semibold.otf,
-%  BoldItalicFont = Crimson-SemiboldItalic.otf,
-%]{Crimson-Roman.otf}
-%
-%\newfontfamily\crimsonRomanFontOldNum[
-%  Path = {./fonts/},
-%  Numbers = OldStyle,
-%]{Crimson-Roman.otf}
-%
-%\newfontfamily\gentiumFont[
-%  Path = {./fonts/},
-%]{GentiumPlus-R.ttf}
+\newfontfamily\gentiumFont[
+  SmallCapsFont = Crimson Roman,
+  SmallCapsFeatures= { Ligatures = TeX, Letters = SmallCaps, Scale = 0.8, LetterSpace = 0.2 },
+  ItalicFont = Gentium Plus Italic,
+  BoldFont = Gentium Book Basic Bold,
+  BoldItalicFont = Gentium Book Basic Bold Italic,
+]{Gentium Plus}
 
-%% or by name:
+\newfontfamily\crimsonRomanFont[
+  SmallCapsFeatures= { LetterSpace = 0.2 },
+  BoldFont = Crimson Semibold,
+  ItalicFont = Crimson Italic,
+]{Crimson Roman}
 
-%\setmainfont[
-%  SmallCapsFont = Crimson Roman,
-%  SmallCapsFeatures= { Ligatures = TeX, Letters = SmallCaps },
-%  BoldFont = Gentium Book Basic Bold,
-%]{Gentium}
+\newfontfamily\crimsonRomanFontOldNum[
+  Numbers = OldStyle,
+]{Crimson Roman}
 
-%\newfontfamily\crimsonRomanFont[
-%  BoldFont = Crimson Semibold,
-%  ItalicFont = Crimson Italic,
-%]{Crimson Roman}
-%\newfontfamily\crimsonRomanFontOldNum[
-%  Numbers = OldStyle,
-%]{Crimson Roman}
-%\newfontfamily\gentiumFont{Gentium}
+\newfontfamily\alegreyaFont{Alegreya}
+
+\newfontfamily\alegreyaSansLightFont[
+  ItalicFont = Alegreya Sans Light Italic,
+]{Alegreya Sans Light}
+
+\newfontfamily\glacialIndifferenceFont{Glacial Indifference}
+
+\newfontfamily\firaSansFont{Fira Sans}
 
 % header and footer
 
-%% by filename:
-
-%\newfontfamily\footFont[
-%  Path = {./fonts/},
-%  %Renderer = Basic,
-%]{Crimson-Roman.otf}
-
-%% or by name:
-
-%\newfontfamily\footFont[Renderer = Basic]{Shaker Pali}
-
-\newcommand{\footSize}
-  {\@setfontsize\footSize{9}{9}}
+\newcommand\headerFont\alegreyaSansLightFont
+\newcommand\footerFont\alegreyaSansLightFont
+\newcommand\pageNumFont\alegreyaSansLightFont
 
 % chapter
 
-%\newfontfamily\partTitleFont[
-%  ItalicFont = Shaker 2 Light Italic,
-%  %Renderer = Basic,
-%]{Crimson Roman}
-%
-%\newfontfamily\chapterNameFont{Crimson Roman}
-%\newfontfamily\chapterTitleFont{Crimson Roman}
-%\newfontfamily\chapterNumberFont{Crimson Roman}
-%\newfontfamily\chapterAuthorFont{Crimson Roman}
-%\newfontfamily\chapterNoteFont[
-%  BoldFont = Crimson Semibold,
-%  ItalicFont = Crimson Italic,
-%]{Crimson Roman}
+\newcommand\partTitleFont\alegreyaSansLightFont
+
+\newcommand\chapterNameFont\glacialIndifferenceFont
+\newfontfamily\chapterTitleFont{Glacial Indifference}
+\newcommand\chapterNumberFont\glacialIndifferenceFont
+\newcommand\chapterAuthorFont\crimsonRomanFont
+\newcommand\chapterNoteFont\gentiumFont
+
+% toc
+
+\newcommand\tocFont\gentiumFont
+\newcommand\tocFontOldNum\gentiumFont
 
 % Some default font sizes, use \renewcommand to adjust
 
@@ -206,23 +170,24 @@
 \newcommand{\chapterNumberSize}
   {\@setfontsize\chapterNumberSize{22}{24}}
 \newcommand{\chapterTitleSize}
-  {\@setfontsize\chapterTitleSize{13}{16.5}}
+  {\@setfontsize\chapterTitleSize{16}{20}}
 \newcommand{\chapterAuthorSize}
-  {\@setfontsize\chapterAuthorSize{12}{14}}
+  {\@setfontsize\chapterAuthorSize{10}{12}}
 \newcommand{\chapterNoteSize}
   {\@setfontsize\chapterNoteSize{10}{13}}
-\newcommand{\pageNumSize}
-  {\@setfontsize\pageNumSize{10}{12}}
+\newcommand{\footerSize}
+  {\@setfontsize\footerSize{10}{10}}
+\newcommand{\headerSize}
+  {\@setfontsize\headerSize{10}{10}}
+%\newcommand{\pageNumSize}
+%  {\@setfontsize\pageNumSize{10}{12}}
 
 % section
 
-%\newfontfamily\sectionFont[
-%  BoldFont = Crimson Semibold,
-%  ItalicFont = Crimson Italic,
-%]{Crimson Roman}
+\newcommand\sectionFont\firaSansFont
 
 \newcommand{\sectionSize}
-  {\@setfontsize\sectionSize{13}{15}}
+  {\@setfontsize\sectionSize{11}{13}}
 
 % other sizes
 
@@ -230,12 +195,27 @@
   {\@setfontsize\smaller{9}{11}}
 
 \newcommand{\copyrightsize}
-  {\@setfontsize\smaller{9}{11}}
+  {\@setfontsize\copyrightsize{9}{11}}
+
+% foreign language wrappers
+
+\newfontfamily\thaiFont{Kinnari}
+
+\newcommand*\thai[1]{{\thaiFont #1}}
+
+% other fonts
+
+\newcommand\questionAnswerFont\firaSansFont
 
 % === microtype ===
 
 \RequirePackage[final,babel=true]{microtype}
-\SetTracking[spacing={500,100,}]{encoding=*, family=chapterTitleFont}{40}
+
+% \SetTracking family=x works by name ("Glacial Indifference") or the automatic
+% lookup name ("GlacialIndifference"), but not by \newfontfamily commands
+% (chapterTitleFont)
+
+\SetTracking[spacing={350,100,}]{encoding=*, family=Glacial Indifference}{80}
 
 % === hyperref ===
 
@@ -252,7 +232,7 @@
   urlcolor=link
 }
 \else
-% Desktop version: link colors to text color, so that it doesn't
+% Print version: link colors to text color, so that it doesn't
 % interfere with printing, but can still test is link targets work.
 \hypersetup{
   colorlinks=true,
@@ -274,8 +254,13 @@
 % memoir's more allowing penalties
 \midsloppy
 
-% FIXME: only if babel is english or british
-%\renewcommand\britishhyphenmins{{3}{3}}
+\renewcommand\portuguesehyphenmins{{3}{3}}
+
+% Portuguese repeats hyphen
+% http://tex.stackexchange.com/a/247298/831
+
+% generates a hyphen that will repeat on a new line
+\defineshorthand{"-}{\babelhyphen{repeat}}
 
 % The lastparline or the parfillskip solution is overkill in many
 % places. It is optimal for larger paragraphs, but creates too much
@@ -308,7 +293,9 @@
 \exhyphenpenalty=50
 \doublehyphendemerits=900
 %\finalhyphendemerits=5000 % default is 5000
-\brokenpenalty=990
+
+% It is more effective to \mbox{...} the words to avoid hyphenation.
+\brokenpenalty=5000 % penalty for page break after a hyphenated line
 
 \RequirePackage[defaultlines=2,all]{nowidow}
 
@@ -346,8 +333,10 @@ philo-sophical munindo amaravati thai-land}
 
 \sodef\soTocChapter{}{.1em}{.5em plus.1em}{.1em plus.1em minus.1em}
 \sodef\soSection{}{.07em}{.4em plus.1em}{.1em plus.1em minus.1em}
-% Using \textls letterspacing with microtype instead, because soul swallows accented characters at the end of words.
-%\sodef\soChapter{}{.06em}{.4em plus.1em}{.1em plus.1em minus.1em}
+
+% Use \textls letterspacing (for uppercase chapter titles for example)
+% with microtype instead, because soul swallows
+% accented characters at the end of words.
 
 % === Custom commands and environments ===
 
@@ -404,6 +393,11 @@ philo-sophical munindo amaravati thai-land}
 ]%
 }{\end{itemize}}
 
+\newcommand\speakerName[1]{%
+  % The hangindent only works with alternating speakers.
+  %\par\hangindent=1pc%
+  {\color[gray]{0.25}\crimsonRomanFont\scshape\MakeLowercase{#1}}\quad}
+
 \newlength\qw
 \setlength\qw{17pt}% same as parindent for smallpage
 
@@ -428,6 +422,10 @@ philo-sophical munindo amaravati thai-land}
   \ifthenelse{\equal{#1}{}}{\textit{A:}\space}{\textit{#1:}\space}%
 }
 
+\newcommand{\QA}[1]{%
+  {\questionAnswerFont\color[gray]{0.4} #1}\space
+}
+
 % If class option webVersion is used, show content in a paper sized
 % minipage, empty page otherwise.
 % Redefine \color{webcoverbg} to change page background color.
@@ -440,6 +438,37 @@ philo-sophical munindo amaravati thai-land}
 \end{minipage}}}
 \fi
 \clearpage
+}
+
+\newcommand\photoFullBleed[1]{%
+  \AddToShipoutPictureFG*{%
+    \put(\LenToUnit{-3mm},\LenToUnit{-3mm}){%
+      \includegraphics[height={\paperheight + 6mm}]{#1}%
+    }%
+  }%
+}
+
+\newcommand\photoSideBleed[1]{%
+  \AddToShipoutPictureFG*{%
+    \put(\LenToUnit{-3mm},\LenToUnit{0mm}){%
+      \begin{minipage}[b][\paperheight][c]{\paperwidth + 6mm}%
+        \includegraphics[width={\paperwidth + 6mm}]{#1}%
+      \end{minipage}%
+    }%
+  }%
+}
+
+% glossary as item list
+
+\newcommand*{\labelFmt}[2]{\normalfont\textbf{#1}, \textit{#2}.}
+
+\newenvironment{glossarydescription}%
+               {\list{}{\labelwidth\z@ \itemindent-\leftmargin
+                        \let\makelabel\glossaryDescriptionlabel}}%
+               {\endlist}
+\newcommand*{\glossaryDescriptionlabel}[1]{%
+  \hspace\labelsep
+  \labelFmt #1%
 }
 
 % === Renewing package macros ===
@@ -460,8 +489,7 @@ philo-sophical munindo amaravati thai-land}
 }
 
 \renewenvironment{quote}%
-{\small
-\list{}{\rightmargin\leftmargin}%
+{\list{}{\rightmargin 0pt}%
 \item[]}%
 {\endlist}
 
@@ -485,6 +513,13 @@ philo-sophical munindo amaravati thai-land}
 \renewcommand{\prenoteinnotes}{\par\noindent\hangindent=17pt}
 \renewcommand{\postnoteinnotes}{\par\vspace*{0.5\baselineskip}}
 
+% If using babel, captions names have to be renamed like this
+
+\addto\captionsportuguese{
+  \renewcommand{\contentsname}{Índice}
+  \renewcommand{\bibname}{Referências}
+}
+
 % === Page styles ===
 
 \nouppercaseheads
@@ -496,6 +531,13 @@ philo-sophical munindo amaravati thai-land}
   \raisebox{-0.3\baselineskip}{\rule{0.2pt}{1.2\baselineskip}}%
   \hspace{6pt}%
 }
+
+\newcommand{\sepdot}{%
+  \hspace*{6pt}%
+  $\cdot$%
+  \hspace*{6pt}%
+}
+
 \makepagestyle{topbottomcentered}
 \makeevenhead{topbottomcentered}{}{\textit{\rightmark}}{}
 \makeevenfoot{topbottomcentered}{}{\thepage}{}
@@ -505,30 +547,67 @@ philo-sophical munindo amaravati thai-land}
 \makepagestyle{bottomcorner}
 \makeevenhead{bottomcorner}{}{}{}
 \makeevenfoot{bottomcorner}{%
-  \footFont\footSize%
+  \footerFont\footerSize%
   \thepage \sepline \leftmark%
 }{}{}
 \makeoddhead{bottomcorner}{}{}{}
 \makeoddfoot{bottomcorner}{}{}{%
-  \footFont\footSize%
+  \footerFont\footerSize%
   \rightmark \sepline \thepage%
+}
+
+\makepagestyle{altTopBottomCorner}
+\makeevenhead{altTopBottomCorner}{%
+  \headerFont\headerSize%
+  \itshape\thepage \hspace*{1em} \thetitle%
+}{}{}
+\makeevenfoot{altTopBottomCorner}{}{}{}
+\makeoddhead{altTopBottomCorner}{}{}{}
+\makeoddfoot{altTopBottomCorner}{}{}{%
+  \footerFont\footerSize%
+  \itshape\rightmark \hspace*{1em} \thepage%
+}
+
+\makepsmarks{altTopBottomCorner}{%
+  \nouppercaseheads%
+  \createmark{chapter}{right}{nonumber}{}{}%
+  \clearmark{section}%
 }
 
 \makepagestyle{bottomcenter}
 \makeevenhead{bottomcenter}{}{}{}
 \makeevenfoot{bottomcenter}{}{%
-  \footFont\footSize%
+  \footerFont\footerSize%
   \thepage%
 }{}
 \makeoddhead{bottomcenter}{}{}{}
 \makeoddfoot{bottomcenter}{}{%
-  \footFont\footSize%
+  \footerFont\footerSize%
   \thepage%
 }{}
 
+\makepagestyle{topcorner}
+\makeevenhead{topcorner}{%
+  \raggedright%
+  \headerFont\headerSize%
+  \parbox{\paperwidth - \textwidth - \spinemargin - 3pt}{\raggedleft\thepage\sepdot}{\color[gray]{0.4}\leftmark}%
+}{}{}
+\makeevenfoot{topcorner}{}{}{}
+\makeoddhead{topcorner}{}{}{%
+  \raggedleft%
+  \headerFont\headerSize%
+  {\color[gray]{0.4}\rightmark}\parbox{\paperwidth - \textwidth - \spinemargin - 3pt}{\raggedright\sepdot\thepage}%
+}
+\makeoddfoot{topcorner}{}{}{}
+\makerunningwidth{topcorner}{\paperwidth}
+\makepsmarks{topcorner}{%
+  \createmark{chapter}{left}{nonumber}{}{}
+  \createmark{section}{right}{nonumber}{}{}
+}
+
 % alias the pagestyles into semantic names, "where it is used"
 
-\aliaspagestyle{normalpage}{bottomcorner}
+\aliaspagestyle{normalpage}{altTopBottomCorner}
 \aliaspagestyle{chapter}{bottomcenter}
 \aliaspagestyle{part}{empty}
 \aliaspagestyle{afterpart}{empty}
@@ -537,7 +616,7 @@ philo-sophical munindo amaravati thai-land}
 
 % === TOC settings ===
 
-\maxtocdepth{section}
+\maxtocdepth{chapter}
 
 % Fixes Undefined control sequence error for \@chapapp@head
 \renewcommand\chapternumberline[1]{\numberline{#1}}
@@ -553,7 +632,7 @@ philo-sophical munindo amaravati thai-land}
   \ifnum #1>\c@tocdepth \else
     %\vskip \z@ \@plus.2\p@
     \vspace*{-3pt}
-    {\footnotesize\itshape\crimsonRomanFont
+    {\footnotesize\itshape\tocFont
      \leftskip #2\relax
      \rightskip \@tocrmarg
      \advance\rightskip #3\relax
@@ -576,6 +655,14 @@ philo-sophical munindo amaravati thai-land}
     \addcontentsline{toc}{chapternote}{%
     \noexpand\numberline{}#1}%
 }
+
+% Format:
+% \titlecontents{ section }[ left ]
+% { above-code }
+% { numbered-entry-format }
+% { numberless-entry-format }
+% { filler-page-format }
+% [ below-code ]
 
 % the right TOC margin
 \contentsmargin{0pt}
@@ -600,19 +687,12 @@ philo-sophical munindo amaravati thai-land}
 [\addvspace{5pt}]
 
 \titlecontents{chapter}[\tocLeftWidth]
-{\normalsize\tocFont}%
-{%
-  \contentsmargin{0pt}%
-  \makebox[0pt][r]{%
-    {\color{tocleftside}%
-    \chaptername~{\tocFontOldNum\thecontentslabel}}%
-    \hspace*{0.5em}$\cdot$\hspace*{0.5em}%
-  }%
-}
+{\addvspace{4pt}\normalsize\tocFont}%
+{\contentsmargin{0pt}}%
 {\contentsmargin{0pt}%
 \itshape}
 {\enspace\hfill\normalsize\tocFont\thecontentspage}
-[\addvspace{5pt}]
+[\addvspace{3pt}]
 
 \titlecontents{appendix}[\tocLeftWidth]
 {\normalsize\tocFont}%
@@ -730,7 +810,7 @@ philo-sophical munindo amaravati thai-land}
 
 \newcommand\chapterAuthorFmt[1]{%
   \chapterAuthorFont\chapterAuthorSize\color{chapterauthor}%
-  #1%
+  \MakeLowercase{\scshape #1}%
 }
 
 \newif\ifchapternote
@@ -761,47 +841,61 @@ philo-sophical munindo amaravati thai-land}
 \newlength\chapterTitleLeftSkip
 \setlength{\chapterTitleLeftSkip}{17pt}
 
-\makechapterstyle{lowtitle}{
+\newlength\decorHeight
+\setlength{\decorHeight}{4cm}
+
+\makechapterstyle{arvore}{
   \chapterstyle{default}
   \setlength{\beforechapskip}{30mm}
-  \setlength{\chapterTitleLeftSkip}{17pt}
+  \setlength{\chapterTitleLeftSkip}{2.5cm}
   \renewcommand\printchaptername{}
   \renewcommand\chapternamenum{}
-  \renewcommand\chapnumfont{\chapterNumberFont\chapterNumberSize}
-  \renewcommand\printchapternum{%
-    \chapnumfont\color{chapternum}%
-    \hspace*{\chapterTitleLeftSkip}\thechapter%
-  }
-  \setlength{\midchapskip}{2\onelineskip}
-  \renewcommand\afterchapternum{\par\nobreak\vskip \midchapskip}
+  \renewcommand\printchapternum{}
+  \renewcommand\afterchapternum{}
   \renewcommand\printchapternonum{}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
   \renewcommand*\printchaptertitle[1]{%
-    \raggedright\hspace*{\chapterTitleLeftSkip}%
-    \parbox{\linewidth - \chapterTitleLeftSkip}{%
-      \raggedright\chaptitlefont\color{chaptertitle}%
-      \textls*{\MakeUppercase{##1}}%
-      \ifchapterfootnote%
-        \hspace*{2pt}\theChapterFootnoteMark%
-      \fi%
-      \ifchapterauthor%
-        \vskip 0.5\onelineskip%
-        \chapterAuthorFmt{\theChapterAuthor}%
-        \global\chapterauthorfalse%
-      \fi%
-      \ifchapternote%
-        \vskip 0.5\onelineskip%
-        \chapterNoteFmt{\theChapterNote}%
-        \global\chapternotefalse%
-      \fi%
-    }%
-    \ifchapterfootnote%
-      \theChapterFootnoteText%
-      \global\chapterfootnotefalse%
+    \centering
+    \chaptitlefont\color{chaptertitle}%
+    \textls*{\MakeUppercase{##1}}%
+    \ifchapterauthor%
+      \vskip 0.5\onelineskip%
+      \chapterAuthorFmt{\theChapterAuthor}%
+      \global\chapterauthorfalse%
     \fi%
+
+    \AddToShipoutPictureBG*{\put(\LenToUnit{3mm},\LenToUnit{\paperheight - \decorHeight - 3mm})%
+      {\begin{minipage}[b]{\paperwidth - 6mm}%
+          \raggedleft
+          \pgfornament[color=black!20, height=\decorHeight, anchor=south, symmetry=v]{62}%
+          \hfill
+          \pgfornament[color=black!20, height=\decorHeight, anchor=south]{62}%
+        \end{minipage}%
+      }}%
   }
   \setlength{\afterchapskip}{2.5\onelineskip}
   \renewcommand\afterchaptertitle{\par\nobreak\vskip \afterchapskip}%
+}
+
+\makechapterstyle{high-arvore}{
+  \chapterstyle{arvore}
+  \setlength{\beforechapskip}{0pt}
+  \renewcommand*\printchaptertitle[1]{%
+    \centering
+    \chaptitlefont\color{chaptertitle}%
+    \textls*{\MakeUppercase{##1}}%
+  }
+}
+
+\makechapterstyle{high-left-arvore}{
+  \chapterstyle{arvore}
+  \setlength{\beforechapskip}{0pt}
+  \setlength{\chapterTitleLeftSkip}{6pc}
+  \renewcommand*\printchaptertitle[1]{%
+    \raggedright
+    \chaptitlefont\color{chaptertitle}%
+    \hspace*{\chapterTitleLeftSkip}\textls*{\MakeUppercase{##1}}%
+  }
 }
 
 \makechapterstyle{hightitle}{
@@ -859,13 +953,245 @@ philo-sophical munindo amaravati thai-land}
   }
 }
 
+\newlength\chapterNumberWidth
+\newlength\chapterTitleYOffset
+
+\newlength\offsetAmount
+\setlength{\offsetAmount}{4pt}%
+
+\newif\ifthistitleoffset
+
+\NewCoffin\ChapterWrapBox
+\NewCoffin\ChapterNumberBox
+\NewCoffin\ChapterNumberRuleBox
+\NewCoffin\ChapterTitleBox
+
+\newcommand\titlealign{}
+
+\makechapterstyle{shedir}{
+  \chapterstyle{default}
+  \setlength{\beforechapskip}{30mm}
+  \setlength{\chapterTitleLeftSkip}{0pt}
+  \renewcommand\printchaptername{}
+  \renewcommand\chapternamenum{}
+  \renewcommand\chapnumfont{\chapterNumberFont\chapterNumberSize}
+  \if@mainmatter
+    \setlength{\chapterNumberWidth}{\widthof{\chapnumfont 99.} + 10pt}
+  \else
+    \setlength{\chapterNumberWidth}{0pt}
+  \fi
+  \renewcommand\printchapternum{}
+  \renewcommand\afterchapternum{}
+  \renewcommand\printchapternonum{}
+  \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
+  \renewcommand\titlealign{\if@mainmatter \raggedright \else \centering \fi}
+  \renewcommand*\printchaptertitle[1]{%
+    \SetHorizontalCoffin\ChapterNumberBox{%
+      \parbox{\chapterNumberWidth}{%
+        \if@mainmatter
+          \chapnumfont\color{chapternum}%
+          \hspace*{\chapterTitleLeftSkip}\thechapter .%
+        \else
+          \mbox{}%
+        \fi
+      }%
+    }%
+    \SetHorizontalCoffin\ChapterTitleBox{%
+      \parbox{\linewidth - \chapterTitleLeftSkip - \chapterNumberWidth}{%
+        \titlealign
+        \chaptitlefont\color{chaptertitle}%
+        \textls*{\MakeUppercase{##1}}%
+        \ifchapterfootnote%
+          \hspace*{2pt}\theChapterFootnoteMark%
+        \fi%
+        \ifchapterauthor%
+          \vskip 0.5\onelineskip%
+          \chapterAuthorFmt{\theChapterAuthor}%
+          \global\chapterauthorfalse%
+        \fi%
+        \ifchapternote%
+          \vskip 0.5\onelineskip%
+          \chapterNoteFmt{\theChapterNote}%
+          \global\chapternotefalse%
+        \fi%
+        \ifchapterfootnote%
+          \theChapterFootnoteText%
+          \global\chapterfootnotefalse%
+        \fi%
+      }%
+    }%
+    \ifthistitleoffset
+      \setlength{\chapterTitleYOffset}{\offsetAmount}%
+    \else
+      \setlength{\chapterTitleYOffset}{0pt}%
+    \fi
+    \JoinCoffins\ChapterNumberBox[r,t]\ChapterTitleBox[l,t](0pt, \chapterTitleYOffset)%
+    \global\thistitleoffsetfalse
+    \JoinCoffins\ChapterWrapBox\ChapterNumberBox%
+    %
+    \raggedright\hspace*{\chapterTitleLeftSkip}%
+    \TypesetCoffin\ChapterWrapBox%
+  }
+  \setlength{\afterchapskip}{2.5\onelineskip}
+  \renewcommand\afterchaptertitle{\par\nobreak\vskip \afterchapskip}%
+}
+
+\makechapterstyle{shedir-high}{
+  \chapterstyle{shedir}
+  \setlength{\beforechapskip}{0pt}
+}
+
+\makechapterstyle{shedir-toc}{
+  \chapterstyle{shedir-high}
+  \setlength{\chapterTitleLeftSkip}{6pc}
+  \setlength{\afterchapskip}{1.5\onelineskip}
+  \renewcommand\titlealign{\raggedright}
+}
+
+% === Caph ===
+%
+% Chapter title size: 18 / 20 pt
+
+\makechapterstyle{caph}{
+  \chapterstyle{default}
+  \setlength{\beforechapskip}{10mm}
+  \setlength{\chapterTitleLeftSkip}{0pt}
+  \renewcommand\printchaptername{}
+  \renewcommand\chapternamenum{}
+  \renewcommand\chapnumfont{\chapterNumberFont\chapterNumberSize}
+  \if@mainmatter
+    \setlength{\chapterNumberWidth}{\widthof{\chapnumfont 99.} + 10pt}
+  \else
+    \setlength{\chapterNumberWidth}{0pt}
+  \fi
+  \renewcommand\printchapternum{}
+  \renewcommand\afterchapternum{}
+  \renewcommand\printchapternonum{}
+  \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize\itshape}
+  \renewcommand\titlealign{\if@mainmatter \raggedright \else \centering \fi}
+  \renewcommand*\printchaptertitle[1]{%
+    % ===
+    \SetHorizontalCoffin\ChapterNumberBox{%
+      \parbox{\chapterNumberWidth}{%
+        \if@mainmatter
+          \chapnumfont\color{chapternum}%
+          \hspace*{\chapterTitleLeftSkip}\thechapter .%
+        \else
+          \mbox{}%
+        \fi
+      }%
+    }%
+    % ===
+    \SetHorizontalCoffin\ChapterNumberRuleBox{%
+      \color{gray!80}\rule{150pt}{1pt}%
+    }%
+    % ===
+    \SetHorizontalCoffin\ChapterTitleBox{%
+      \parbox{\linewidth - \chapterTitleLeftSkip - \chapterNumberWidth}{%
+        \titlealign
+        \chaptitlefont\color{chaptertitle}%
+        ##1%
+        \ifchapterfootnote%
+          \hspace*{2pt}\theChapterFootnoteMark%
+        \fi%
+        \ifchapterauthor%
+          \vskip 0.5\onelineskip%
+          \chapterAuthorFmt{\theChapterAuthor}%
+          \global\chapterauthorfalse%
+        \fi%
+        \ifchapternote%
+          \vskip 0.5\onelineskip%
+          \chapterNoteFmt{\theChapterNote}%
+          \global\chapternotefalse%
+        \fi%
+        \ifchapterfootnote%
+          \theChapterFootnoteText%
+          \global\chapterfootnotefalse%
+        \fi%
+      }%
+    }%
+    % ===
+    \JoinCoffins*\ChapterNumberBox[r,b]\ChapterNumberRuleBox[r,t](0pt,-10pt)%
+    \JoinCoffins\ChapterNumberBox[r,b]\ChapterTitleBox[l,t](0pt,-40pt)%
+    \JoinCoffins\ChapterWrapBox\ChapterNumberBox%
+    %
+    \raggedright\hspace*{\chapterTitleLeftSkip}%
+    \TypesetCoffin\ChapterWrapBox%
+  }
+  \setlength{\afterchapskip}{2.5\onelineskip}
+  \renewcommand\afterchaptertitle{\par\nobreak\vskip \afterchapskip}%
+}
+
+\makechapterstyle{caph-high}{
+  \chapterstyle{caph}
+  \setlength{\beforechapskip}{0pt}
+}
+
+\makechapterstyle{caph-toc}{
+  \chapterstyle{caph-high}
+  \setlength{\chapterTitleLeftSkip}{6pc}
+  \setlength{\afterchapskip}{1.5\onelineskip}
+  \renewcommand\titlealign{\raggedright}
+}
+
+\newif\ifchaptertitleleft
+\chaptertitleleftfalse
+
+\makechapterstyle{mirzam}{
+  \chapterstyle{lowtitle}
+  \def\setchapterspaces{%
+    \setlength{\midchapskip}{1.5\onelineskip}
+    \if@mainmatter
+      \setlength{\beforechapskip}{2\onelineskip}%
+      \setlength{\afterchapskip}{3.5\onelineskip}%
+    \else
+      \setlength{\beforechapskip}{0pt}%
+      \setlength{\afterchapskip}{2.5\onelineskip}%
+    \fi
+    \ifchaptertitleleft
+      \setlength{\chapterTitleLeftSkip}{6pc}%
+    \else
+      \setlength{\chapterTitleLeftSkip}{0pt}%
+    \fi
+  }
+  \def\chapterheadstart{
+    \setchapterspaces%
+    \vspace*{\beforechapskip}
+  }%
+  \renewcommand\printchapternum{}
+  \renewcommand\afterchapternum{}
+  \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize\itshape}
+  \renewcommand*\printchaptertitle[1]{%
+    \ifchaptertitleleft
+      \raggedright\hspace*{\chapterTitleLeftSkip}%
+    \else
+      \centering
+    \fi
+    \parbox{\linewidth - \chapterTitleLeftSkip}{%
+      \ifchaptertitleleft
+        \raggedright
+      \else
+        \centering
+      \fi
+      \chaptitlefont\color{chaptertitle}%
+      {##1}%
+    }%
+    \if@mainmatter
+      \par
+      \vspace*{\midchapskip}%
+      {\centering%
+        \includegraphics[width=0.9\linewidth]{mark-crop}%
+      \par}%
+    \fi
+  }
+}
 % Commands to assign the chapter styles to book parts. Use \renewcommand
 % to adjust.
 
-\newcommand\frontmatterChapterStyle{\chapterstyle{hightitle}}
-\newcommand\mainmatterChapterStyle{\chapterstyle{lowtitle}}
-\newcommand\appendixChapterStyle{\chapterstyle{hightitle}}
-\newcommand\backmatterChapterStyle{\chapterstyle{hightitle}}
+\newcommand\frontmatterChapterStyle{\chapterstyle{high-arvore}}
+\newcommand\mainmatterChapterStyle{\chapterstyle{arvore}}
+\newcommand\appendixChapterStyle{\chapterstyle{high-arvore}}
+\newcommand\backmatterChapterStyle{\chapterstyle{high-arvore}}
 
 % append them to the macros
 \addtodef{\frontmatter}{}{\frontmatterChapterStyle}
@@ -887,8 +1213,9 @@ philo-sophical munindo amaravati thai-land}
 \newcommand\sectionFmt[1]{%
   \sectionFont\sectionSize\color{section}%
   \memRTLraggedright%
-  \itshape #1%
+  #1%
 }
+
 \setsecheadstyle{\sectionFmt}
 
 \setsubsecheadstyle{%
@@ -909,353 +1236,72 @@ philo-sophical munindo amaravati thai-land}
 % m = text width
 % d = text height
 
-\ifthenelse{\equal{\BOOK@pagePreset}{largepage}}{
+\newlength\BOOK@paperHeight
+\newlength\BOOK@paperWidth
 
-  % Large page size
-  %
-  % 6in x 9in page
-  % P = 1.5 (fifth)
-  % T = 1.732 (sqrt(3)), Hexagon
+\def\BOOK@fontSizePt{}
+\def\BOOK@lineHeightPt{}
 
-  % For 11pt / 16pt font size, Gentium font, 5pt parskip, no parindent.
-  % TODO: elaborate on reasonale
+% largepage
 
-  % === normalsize ===
-
-  \def\BOOK@apt{11}
-  \def\BOOK@bpt{16}
-
-  \renewcommand{\normalsize}{%
-    \@setfontsize\normalsize\BOOK@apt\BOOK@bpt
-    \abovedisplayskip 11\p@ \@plus3\p@ \@minus6\p@
-    \abovedisplayshortskip \z@ \@plus3\p@
-    \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
-    \belowdisplayskip \abovedisplayskip
-    \color{textbody}
-    \let\@listi\@listI}
-  \normalsize
-
-  % === indentations ===
-
-  \setlength{\vgap}{1.5em}
-  \setlength{\vindent}{\vgap}
-  \setlength{\vleftmargin}{2em}
-
-  \setlength{\parskip}{5pt}
-  \setlength{\parindent}{0pt}
-
-  % === setup page layout ===
-
-  \setstocksize{9in}{6in}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
-  % It won't be exactly 33 lines because of the parskip,
-  % but close enough for our purpose.
-  \settypeblocksize{32\baselineskip + \topskip}{*}{0.577}% 1/1.732 (sqrt(3)), Hexagon
-  \setlrmargins{*}{*}{1.125}% 1/0.889 major 2nd
-  \setulmargins{*}{*}{1.701}% Tall Pentagon, 1.701
-  \setlength{\footskip}{3\baselineskip}
-
-% ******************************************************
-% Stock height and width: 228.59732mm by 152.39821mm
-% Top and edge trims: 0mm and 0mm
-% Page height and width: 228.59732mm by 152.39821mm
-% Text height and width: 183.81133mm by 105.78816mm
-% Spine and edge margins: 21.80508mm and 24.53474mm
-% Upper and lower margins: 16.57637mm and 28.20961mm
-% Headheight and headsep: 4.77979mm and 6.98476mm
-% Footskip: 16.86987mm
-% Columnsep and columnseprule: 3.51456mm and 0mm
-% Marginparsep and marginparwidth: 2.46019mm and 19.61436mm
-% Sidecapsep and sidecapwidth: 2.46019mm and 39.01158mm
-% Sidebarhsep and sidebarwidth: 2.46019mm and 39.01158mm
-% Sidebarvsep and sidebartopsep: 4.77979mm and 0mm
-% Sidebarheight: 189.75801mm
-% Sidefoothsep and sidefootwidth: 2.46019mm and 39.01158mm
-% Sidefootvsep and sidefootheight: 4.77979mm and 189.75801mm
-% ******************************************************
+% Large page size
 %
-% ******************************************************
-% Stock height and width: 650.43pt by 433.62pt
-% Top and edge trims: 0pt and 0pt
-% Page height and width: 650.43pt by 433.62pt
-% Text height and width: 523pt by 301pt
-% Spine and edge margins: 62.04224pt and 69.80893pt
-% Upper and lower margins: 47.16492pt and 80.26508pt
-% Headheight and headsep: 13.6pt and 19.8738pt
-% Footskip: 48pt
-% Columnsep and columnseprule: 10pt and 0pt
-% Marginparsep and marginparwidth: 7pt and 55.80893pt
-% Sidecapsep and sidecapwidth: 7pt and 111pt
-% Sidebarhsep and sidebarwidth: 7pt and 111pt
-% Sidebarvsep and sidebartopsep: 13.6pt and 0pt
-% Sidebarheight: 539.9202pt
-% Sidefoothsep and sidefootwidth: 7pt and 111pt
-% Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
-% ******************************************************
+% 6in x 9in page
+% P = 1.5 (fifth)
+% T = 1.732 (sqrt(3)), Hexagon
+%
+% For 11pt / 16pt font size, Gentium font, 5pt parskip, no parindent.
 
-}{
-\ifthenelse{\equal{\BOOK@pagePreset}{smallpage}}{
+% === normalsize ===
 
-  % Small page size
-  %
-  % 5.25in x 8in page
-  % P = 1.523 (~Pentagon (1.539), b/w fifth (1.5) and minor 6th (1.6))
-  % T = 1.618 (Golden Section, ~minor 6th (1.6))
+\def\BOOK@fontSizePt{11}
+\def\BOOK@lineHeightPt{16}
 
-  % For 11pt / 16pt font size, 27 lines, Gentium font, no parskip, 17pt parindent.
-  % Small book binding swallows more space in the center, hence the 0.889 L-R margin ratio, instead of the 1.125 of the larger page size.
+\renewcommand{\normalsize}{%
+\@setfontsize\normalsize\BOOK@fontSizePt\BOOK@lineHeightPt
+  \abovedisplayskip 11\p@ \@plus3\p@ \@minus6\p@
+  \abovedisplayshortskip \z@ \@plus3\p@
+  \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
+  \belowdisplayskip \abovedisplayskip
+  \color{textbody}
+  \let\@listi\@listI}
+\normalsize
 
-  % === normalsize ===
+% === indentations ===
 
-  \def\BOOK@apt{11}
-  \def\BOOK@bpt{16}
+\setlength{\vgap}{1.5em}
+\setlength{\vindent}{\vgap}
+\setlength{\vleftmargin}{2em}
 
-  \renewcommand{\normalsize}{%
-    \@setfontsize\normalsize\BOOK@apt\BOOK@bpt
-    \abovedisplayskip 11\p@ \@plus3\p@ \@minus6\p@
-    \abovedisplayshortskip \z@ \@plus3\p@
-    \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
-    \belowdisplayskip \abovedisplayskip
-    \color{textbody}
-    \let\@listi\@listI}
-  \normalsize
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
 
-  % === indentations ===
+% === setup page layout ===
 
-  \setlength{\vgap}{1.5em}
-  \setlength{\vindent}{\vgap}
-  \setlength{\vleftmargin}{2em}
+\setlength{\BOOK@paperHeight}{9in}
+\setlength{\BOOK@paperWidth}{6in}
 
-  % === setup page layout ===
-
-  \setlength{\parskip}{0pt}
-  \setlength{\parindent}{17pt}
-
-  \setstocksize{8in}{5.25in}
+\ifshowtrims
+  \stockaiv% use A4 paper size to show trims
+  \setlength{\paperheight}{\BOOK@paperHeight}
+  \setlength{\paperwidth}{\BOOK@paperWidth}
+  \trimXmarks
+  \trimLmarks
+  \quarkmarks
+  \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
+  \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
+\else\relax
+  \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
   \settrimmedsize{\stockheight}{\stockwidth}{*}
   \settrims{0pt}{0pt}
-  \settypeblocksize{27\baselineskip + \topskip}{*}{0.618}% 1/1.618 Golden section
-  %\setlrmargins{*}{*}{0.889}% major 2nd 15:16, gives: 19.24mm | 17.1mm
-  % FIXED: inner margin too close to the spine. Increased it a bit.
-  \setlrmargins{*}{*}{0.63}% gives: 22.30mm | 14.04mm
-  \setulmargins{*}{*}{1.701}% Tall Pentagon
-  \setlength{\footskip}{3\baselineskip}
+\fi
 
-}{
-\ifthenelse{\equal{\BOOK@pagePreset}{opuslargepage}}{
-
-  % Opus Large page size
-  %
-  % 6in x 9in page
-  % P = 1.5 (fifth)
-  % T = 1.539 (Pentagon, between fifth and minor 6th)
-
-  % For 10.5pt / 15pt font size, Gentium font, 20pt parindent, no
-  % parskip. The textblock is a somber proportion (Pentagon 1:1.539),
-  % ~70 characters wide. The slightly open linespacing aviods wall of
-  % text effect. The inner margins keep the text out from the spine,
-  % so a large book doesn't have to be strained to read the words
-  % toward the center. Running header on top with title and chapter
-  % marks, centered. Page number centered in footer, about three
-  % linespace from text, bottom margin taller than top margin. This
-  % gives the textblock a slightly elevated atmosphere, but with a
-  % low-resonance proportion (between fifth and minor 6th musical
-  % scale) for long prose (Dhamma talks), instead of a high-resonance
-  % narrower column that would suit lighter text.
-
-  % === normalsize ===
-
-  \def\BOOK@apt{10.5}
-  \def\BOOK@bpt{15}
-
-  \renewcommand{\normalsize}{%
-    \@setfontsize\normalsize\BOOK@apt\BOOK@bpt
-    \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
-    \abovedisplayshortskip \z@ \@plus3\p@
-    \belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
-    \belowdisplayskip \abovedisplayskip
-    \color{textbody}
-    \let\@listi\@listI}
-  \normalsize
-
-  % === indentations ===
-
-  \setlength{\vgap}{1.5em}
-  \setlength{\vindent}{\vgap}
-  \setlength{\vleftmargin}{2em}
-
-  \setlength{\parskip}{5pt}
-  \setlength{\parindent}{20pt}
-
-  % === setup page layout ===
-
-  \setstocksize{9in}{6in}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
-  % no parskip, so exactly 33 lines
-  %   = 490.5pt
-  %   = 172.39mm
-  %   = 32\baselineskip + \topskip
-  % 1/1.539 = 0.649 (Pentagon) ratio to height, 112mm
-  \settypeblocksize{32\baselineskip + \topskip}{*}{0.649}% 1/1.539, Tall Pentagon
-  % alt: Short Pentagon, 1.376
-  \setlrmargins{*}{*}{1.333}% fourth 3:4, 23.15mm | 17.3mm
-  \setulmargins{*}{*}{1.778}% minor 7th 9:16, 20.23mm | 35.97mm
-  \setheaderspaces{*}{4mm}{*}% ~ 1/Golden section, closer to text
-  \setlength{\footskip}{3\baselineskip}
-
-}{
-\ifthenelse{\equal{\BOOK@pagePreset}{opussmallpage}}{
-
-  % Opus Small page size
-  %
-  % 5.25in x 8in page
-  % P = 1.523 (~Pentagon (1.539), b/w fifth (1.5) and minor 6th (1.6))
-  % T = 1.618 (Golden Section, ~minor 6th (1.6))
-
-  % For 10.5pt / 15pt font size, 27 lines, Gentium font, no parskip, 17pt parindent.
-
-  % === normalsize ===
-
-  \def\BOOK@apt{10.5}
-  \def\BOOK@bpt{15}
-
-  \renewcommand{\normalsize}{%
-    \@setfontsize\normalsize\BOOK@apt\BOOK@bpt
-    \abovedisplayskip 11\p@ \@plus3\p@ \@minus6\p@
-    \abovedisplayshortskip \z@ \@plus3\p@
-    \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
-    \belowdisplayskip \abovedisplayskip
-    \color{textbody}
-    \let\@listi\@listI}
-  \normalsize
-
-  % === indentations ===
-
-  \setlength{\vgap}{1.5em}
-  \setlength{\vindent}{\vgap}
-  \setlength{\vleftmargin}{2em}
-
-  % === setup page layout ===
-
-  \setlength{\parskip}{0pt}
-  \setlength{\parindent}{17pt}
-
-  \setstocksize{8in}{5.25in}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
-  \settypeblocksize{27\baselineskip + \topskip}{*}{0.618}% 1/1.618 Golden section
-  \setlrmargins{*}{*}{0.889}% major 2nd 15:16
-  \setulmargins{*}{*}{1.701}% Tall Pentagon
-  \setlength{\footskip}{3\baselineskip}
-
-}{
-\ifthenelse{\equal{\BOOK@pagePreset}{largevolume}}{
-
-  % Large Volume page size
-  %
-  % 6in x 9in page
-  % P = 1.5 (fifth)
-  % T = 1.568181
-
-  % TODO: elaborate on style.
-
-  % === normalsize ===
-
-  \def\BOOK@apt{10.5}
-  \def\BOOK@bpt{15}
-
-  \renewcommand{\normalsize}{%
-    \@setfontsize\normalsize\BOOK@apt\BOOK@bpt
-    \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
-    \abovedisplayshortskip \z@ \@plus3\p@
-    \belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
-    \belowdisplayskip \abovedisplayskip
-    \color{textbody}
-    \let\@listi\@listI}
-  \normalsize
-
-  % === indentations ===
-
-  \setlength{\vgap}{1.5em}
-  \setlength{\vindent}{\vgap}
-  \setlength{\vleftmargin}{2em}
-
-  \setlength{\parskip}{0pt}
-  \setlength{\parindent}{15pt}
-
-  % === setup page layout ===
-
-  \setstocksize{9in}{6in}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
-
-  % textheight: 177.8mm (7in) - 15pt (\baselineskip) = 172.5mm
-  % or 32.5999 lines
-  % textwidth: 110mm
-  % 1/1.568181 = 0.63768 ratio
-
-  % TODO: count lines in PDF
-  % no parskip, so 32.5 lines
-  %   = 487.5pt
-  %   = 171.97917mm
-  %   = 31.5\baselineskip + \topskip
-  \settypeblocksize{32\baselineskip + \topskip}{110mm}{*}
-  \setlrmargins{*}{15mm}{*}% 27.4mm | 15mm
-  \setulmargins{26mm}{*}{*}
-  \setheadfoot{15pt}{39pt}
-  \setheaderspaces{*}{13mm}{*}
-
-}{
-\ifthenelse{\equal{\BOOK@pagePreset}{tallpage}}{
-
-  % Tall Page page size
-  %
-  % 5in x 8.25in page
-  % P = 1.618 (Golden section)
-  % T = 1.568181
-
-  % === normalsize ===
-
-  \def\BOOK@apt{10.5}
-  \def\BOOK@bpt{16}
-
-  \renewcommand{\normalsize}{%
-    \@setfontsize\normalsize\BOOK@apt\BOOK@bpt
-    \abovedisplayskip 10\p@ \@plus2\p@ \@minus5\p@
-    \abovedisplayshortskip \z@ \@plus3\p@
-    \belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
-    \belowdisplayskip \abovedisplayskip
-    \color{textbody}
-    \let\@listi\@listI}
-  \normalsize
-
-  % === indentations ===
-
-  \setlength{\vgap}{1.5em}
-  \setlength{\vindent}{\vgap}
-  \setlength{\vleftmargin}{2em}
-
-  \setlength{\parskip}{0pt}
-  \setlength{\parindent}{15pt}
-
-  % === setup page layout ===
-
-  \setstocksize{8.25in}{5in}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
-
-  \settypeblocksize{26.5\baselineskip + \topskip}{90mm}{*}
-  \setlrmargins{18mm}{*}{*}
-  \setulmargins{27.5mm}{*}{*}% Keeping top same as with 1.618 ratio
-  %\setlength{\footskip}{3\baselineskip}
-
-}{
-
-  % other page sizes?
-
-}}}}}}
+% It won't be exactly 33 lines because of the parskip,
+% but close enough for our purpose.
+\settypeblocksize{32\baselineskip + \topskip}{*}{0.577}% 1/1.732 (sqrt(3)), Hexagon
+\setlrmargins{*}{*}{1.125}% 1/0.889 major 2nd
+\setulmargins{*}{*}{1.701}% Tall Pentagon, 1.701
+\setlength{\footskip}{3\baselineskip}
 
 % This will also typeout values in pt (default)
 \checkandfixthelayout
