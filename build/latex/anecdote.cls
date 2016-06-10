@@ -138,7 +138,7 @@
   ItalicFont = Alegreya Sans Light Italic,
 ]{Alegreya Sans Light}
 
-\newfontfamily\glacialIndifferenceFont{Glacial Indifference}
+\newfontfamily\glacialIndifferenceFont{Glacial Indifference X}
 
 \newfontfamily\firaSansFont{Fira Sans}
 
@@ -153,7 +153,7 @@
 \newcommand\partTitleFont\alegreyaSansLightFont
 
 \newcommand\chapterNameFont\glacialIndifferenceFont
-\newfontfamily\chapterTitleFont{Glacial Indifference}
+\newcommand\chapterTitleFont\glacialIndifferenceFont
 \newcommand\chapterNumberFont\glacialIndifferenceFont
 \newcommand\chapterAuthorFont\crimsonRomanFont
 \newcommand\chapterNoteFont\gentiumFont
