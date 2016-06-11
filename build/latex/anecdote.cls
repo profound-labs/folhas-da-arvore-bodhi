@@ -251,7 +251,7 @@
 
 % === penalties and hyphenation ===
 
-% memoir's more allowing penalties
+% Start with memoir's more allowing penalties
 \midsloppy
 
 \renewcommand\portuguesehyphenmins{{3}{3}}
@@ -289,15 +289,17 @@
 % Last line at least 20% of textwidth
 %\parfillskip 0pt plus 0.8\textwidth
 
-\hyphenpenalty=700
-\exhyphenpenalty=50
-\doublehyphendemerits=900
-%\finalhyphendemerits=5000 % default is 5000
+\RequirePackage[defaultlines=2,all]{nowidow}
+
+% Penalties
+
+% Use a bit less hyphenation to avoid many successive hyphens, at the expense of
+% a bit more streching.
+\hyphenpenalty=700% default = 50
 
 % It is more effective to \mbox{...} the words to avoid hyphenation.
-\brokenpenalty=5000 % penalty for page break after a hyphenated line
-
-\RequirePackage[defaultlines=2,all]{nowidow}
+% penalty for page break after a hyphenated line
+\brokenpenalty=5000% default = 100
 
 % === common hyphenation exceptions and corrections ===
 
