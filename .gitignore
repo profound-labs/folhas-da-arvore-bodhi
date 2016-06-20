@@ -2,6 +2,7 @@
 *.aux
 *.log
 *.toc
+*.synctex.gz
 auto/
 publish/epub/
 publish/mobi/
