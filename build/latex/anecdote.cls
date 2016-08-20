@@ -79,8 +79,6 @@
 \RequirePackage{tikz}
 \usetikzlibrary{positioning}
 
-\RequirePackage{pgfornament}
-
 % === Define colors ===
 
 \definecolor{textbody}{gray}{0.1}% 0.1 (90%) is safe. 85% is too light when produced by some printers
@@ -122,11 +120,15 @@
   BoldItalicFont = Gentium Book Basic Bold Italic,
 ]{Gentium Plus}
 
+% NOTE: Using a patched version of Crimson Roman where the small caps ṇ
+% correctly displays Ṇ (uni1E47.sc)
+
 \newfontfamily\crimsonRomanFont[
   SmallCapsFeatures= { LetterSpace = 0.2 },
-  BoldFont = Crimson Semibold,
-  ItalicFont = Crimson Italic,
-]{Crimson Roman}
+  BoldFont = Crimson-Semibold.otf,
+  ItalicFont = Crimson-Italic.otf,
+  Path = {../../assets/fonts-latex/},
+]{Crimson-Roman.otf}
 
 \newfontfamily\crimsonRomanFontOldNum[
   Numbers = OldStyle,
@@ -215,7 +217,7 @@
 % lookup name ("GlacialIndifference"), but not by \newfontfamily commands
 % (chapterTitleFont)
 
-\SetTracking[spacing={350,100,}]{encoding=*, family=Glacial Indifference}{80}
+\SetTracking[spacing={400,100,}]{encoding=*, family=Glacial Indifference X}{80}
 
 % === hyperref ===
 
@@ -869,9 +871,9 @@ philo-sophical munindo amaravati thai-land}
     \AddToShipoutPictureBG*{\put(\LenToUnit{3mm},\LenToUnit{\paperheight - \decorHeight - 3mm})%
       {\begin{minipage}[b]{\paperwidth - 6mm}%
           \raggedleft
-          \pgfornament[color=black!20, height=\decorHeight, anchor=south, symmetry=v]{62}%
+          \includegraphics[height=\decorHeight]{corner-decor.pdf}%
           \hfill
-          \pgfornament[color=black!20, height=\decorHeight, anchor=south]{62}%
+          \includegraphics[height=\decorHeight]{corner-decor-hflip.pdf}%
         \end{minipage}%
       }}%
   }
