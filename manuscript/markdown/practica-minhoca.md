@@ -1,0 +1,159 @@
+A Prática da Minhoca
+====================
+
+*Ajahn Ñāṇarato*
+
+O venerável Ajahn Chah, um dos mais conhecidos professores do Budismo da
+Tradição da Floresta da Tailândia, costumava dizer: “A nossa prática é
+como a minhoca”. O que significa isto?
+
+No mundo moderno queremos obter resultados o mais rapidamente possível,
+fazendo juízos acerca de quão eficientes as coisas são, quão bem-feitas,
+quão atraentes, etc. Existe uma constante pressão para se estar
+actualizado com os últimos avanços e temer ser deixado para trás. Mas
+será que temos realmente força e confiança em nós próprios? Não será que
+estamos a perder a nossa confiança e integridade ainda que acreditemos
+que estamos a controlar o “nosso mundo”? Enquanto o chamado
+desenvolvimento ao nível material é tão invasivo e amplamente
+disseminado por toda a parte, o que é que tem vindo a acontecer
+connosco, afinal o Ser mais importante no meio de tudo isto?
+
+Temos que correr para obter resultados e alcançar o mesmo lugar que
+todos as outras pessoas, da forma mais rápida possível; esta é uma
+percepção que toda a gente tem. Mas poderemos assim manter o nosso
+espaço interior para perceber a beleza, a dor e as possibilidades dos
+outros? Estas questões deveriam ser levadas em consideração quando
+sinceramente procuramos a paz, o viver pacificamente no meio da
+diversidade, e dentro deste contexto penso que a paciência é uma das
+qualidades chaves que necessitamos de reconhecer mais conscientemente.
+No *Pāṭimokkha* *Ovāda*, o conjunto de versos que sumariza os
+ensinamentos do Buddha, *Khanti* (Paciência) é a qualidade por
+excelência da prática religiosa. Muitas vezes vemos a paciência como
+antiquada e parece ser o oposto de estarmos actualizados com o
+desenvolvimento do mundo.
+
+A meu ver a qualidade ou virtude da paciência é essencial para que
+vivamos juntos pacificamente. Sabemos que ser impaciente muitas vezes
+bloqueia ou até mesmo destrói esse processo precioso, quer na nossa vida
+individual quer em sociedade. *Khanti* leva-nos a realizar sabedoria e
+compaixão, prevenindo-nos de cair em padrões egocêntricos.
+
+Como é que somos quando estamos pacientes? Qual é o estado do nosso
+corpo e da nossa mente? É simplesmente negativo ou passivo? Não será
+esse, na realidade, o momento de nos nutrirmos e de retomarmos a nossa
+própria força?
+
+No passado mês de Novembro tive a oportunidade de viajar pelo Butão
+durante dezasseis dias. Desde o início que notei que havia um forte
+sentimento de calma, um certo “à vontade” – esta expressão ressoava
+particularmente em mim. Ainda que outros países possam ter cenários mais
+espectaculares e vistas fantásticas que captem o olhar, o Butão
+destaca-se por oferecer este sentimento único de “à vontade”.
+
+O modo tradicional de construção e de vestuário, grandes áreas de
+floresta virgem e templos com uma clara e pacífica dignidade… toda esta
+simplicidade mas firmeza deu-me um toque de preenchimento. A integridade
+auto-suficiente e a confiança estão presentes naturalmente, sem esforço.
+Quando contactei com este sabor de maravilhoso contentamento de estilo
+de vida, senti como se fosse bem-vindo na atmosfera do “à vontade”.
+
+Depois de ter regressado à Grã – Bretanha, um amigo perguntou-me “Como
+era a pobreza?”. Fiz uma pequena pausa e retorqui “Sim é um país pobre”.
+Depois perguntei-me porque tinha feito a pausa e percebi que a questão
+da pobreza e da riqueza não é tão relevante ali como noutros países. A
+pergunta, à qual estamos tão acostumados a fazer, é ela própria uma
+reflexão da perspectiva através da qual olhamos o mundo.
+
+É necessário que este ponto de vista material não seja a principal
+experiência da nossa vida. Se não limitarmos a maneira de saborear e de
+avaliar a vida, os aspectos esquecidos desta revelar-se-ão por si
+próprios. No Butão senti um profundo sentimento de contentamento o qual
+não experienciamos facilmente na sociedade moderna. Quando estamos
+envoltos nestes pensamentos apercebemo-nos de que a maneira como nos
+relacionamos com o mundo poderia ser bem mais ampla e mais rica do que
+na limitada esfera do bem-estar material. No Butão a riqueza vem do
+contentamento e confiança na vida de cada um. Não temos de passar o
+tempo a batalhar para provarmos a nós próprios que somos alguém e para
+infinitamente obtermos bens. Pelo simples facto de poder tocar esta
+possível perspectiva, senti um alívio.
+
+“Esquecido”, escrevi. Esta perspectiva não é algo para se criar, mas sim
+algo para parar, reconhecer e apreciar.
+
+No Butão a vida deve ser bastante exigente em termos físicos. Muitas
+vezes podemos avistar socalcos muito inclinados com arroz cultivado em
+água, desde o nível mais baixo dos estreitos vales até quase ao topo das
+colinas. Sem dúvida que requer uma enorme quantidade de paciência. Mas
+aqui a nossa percepção de paciência poderá ser limitada de forma
+negativa. Na verdade, quando olhamos para a vida no Butão, esta
+paciência traz consigo o estado de bênção. O ritmo da vida é de
+paciência e cada momento e cada encontro oferecem a oportunidade para
+Sermos, totalmente. Questões, argumentos e pensamentos sobre a ideia de
+paciência param e tudo é simplesmente aquilo que está a acontecer.
+Qualidades como a confiança, força e contentamento são então vistas
+juntamente com a paciência. Elas são inseparáveis. Penso que isto mostra
+a maravilhosa qualidade e benefício da paciência. Esta experiência no
+Butão foi como um relembrar do claro contraste entre aquilo a que
+chamamos “desenvolvimento” e a força que o Butão demonstra de uma forma
+sem qualquer tipo de insistência.
+
+As palavras do Venerável Ajahn Chah “a nossa prática é como a minhoca”
+foram dirigidas aos monges que viviam com ele no mosteiro. Normalmente
+as pessoas pensam na vida na floresta como algo repleto de paz e talvez
+de experiências maravilhosas, mas na realidade é muitas vezes neste
+local que as nossas tendências mais latentes poderão manifestar-se até á
+exaustão. Irritação, dores, aborrecimento e por aí fora - as lutas
+interiores – encontram-se presentes.
+
+Quando se vive num mosteiro há já algum tempo começa-se a apreciar o
+valor das palavras do Venerável Ajahn Chah. Não é uma questão de quão
+espertos somos ou de quão promissora era a ideia que tínhamos de início.
+Tentar ser como as minhocas não é ofensivo ou desencorajador, mas é uma
+forma de reconhecermos as nossas tendências (tão fortemente enraizadas)
+de buscar quaisquer resultados e recompensas, visíveis e imediatos. As
+minhocas têm de viver a vida pacientemente, totalmente concentradas no
+momento e no seu próprio esforço e movimento. Isto desafia a
+aparentemente fascinante ideia de conquista pessoal, a qual é a força
+que está por detrás do desenvolvimento, particularmente nesta era
+moderna. Poderemos tornar-nos minhocas? Imagine-se a resistência, todo o
+tipo de razões ou desculpas que podem surgir quando tentamos ser de
+maneira diferente. É como se a importância da pessoa fosse negada.
+Vivenciar o processo, humildemente rendermo-nos a ele. Paciência não é
+algo para ser pensado ou falado mas sim para Ser.
+
+Ser um mendicante significa que se depende da generosidade alheia para
+se ter os quatro requisitos, ou seja, abrigo, comida, roupa e
+medicamentos. No início podemos achar que o facto de não podermos ter e
+escolher as coisas que gostamos é demasiado difícil e restritivo, mas
+depois aprendemos a familiarizarmo-nos com estas condições e
+eventualmente surge a alegria. O sentimento de gratidão é profundo.
+Estar satisfeito não é um estado passivo mas sim um estado que nos
+confere estabilidade, confiança e felicidade. Isto é, também, o oposto
+daquele que normalmente estamos no mundo. Acho que estas qualidades de
+contentamento e gratidão são impossíveis de realizar se não formos
+pacientes.
+
+Quando somos pacientes ganhamos força interior e, ainda mais importante,
+somos levados a perceber que este mesmo momento é, por si só, pleno.
+Nada lhe falta. Não perdemos o nosso compromisso para com o imediatismo
+do momento presente e nem estamos na expectativa de que o verdadeiro
+significado da vida se torne disponível algures no futuro. Quando
+queremos mudar a nossa atitude da exigência para a aceitação, isto
+torna-se não só relevante no contexto monástico mas também no mundo em
+geral.
+
+Gostaríamos que o mundo vivesse de uma forma mais harmoniosa e o ponto
+crucial de viragem para isso é: ***ou*** simplesmente continuamos com a
+atitude de obter aquilo que satisfaz os nossos desejos, livrando-nos
+daquilo que não se enquadra nos nossos gostos e opiniões, sem plenamente
+apreciarmos o que está disponível à nossa volta, ***ou*** cada um de nós
+poder receber em si a variedade e totalidade do mundo tal como ele é,
+através de, graciosa e humildemente, reaprender a virtude da paciência.
+Preciso de acrescentar que, a nível individual, isto significa receber
+diferentes tipos de emoções tais como medo, ódio, mágoa, desejo, etc.
+
+A nossa prática, ou na verdade eu diria, a nossa vida, é como a minhoca.
+Concentrados no momento presente e sem ambições pelo que vem a seguir,
+tudo o que podemos fazer é continuar a praticar e aceitar por completo o
+que temos à nossa volta. Observar como estas palavras nos afectam – este
+é o ponto de partida.

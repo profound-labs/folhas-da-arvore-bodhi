@@ -1,0 +1,255 @@
+Ser Ninguém
+===========
+
+*Ajahn Sumedho*
+
+Tentem reparar nos pequenos fins da vida dando particular atenção ao fim
+da expiração. Desta maneira, na vida diária, podemos reparar nos
+pequenos fins tão comuns, que ninguém nota. Tenho descoberto que esta
+prática é uma mais-valia, pois é uma forma de reparar na natureza
+mutável do reino condicionado no qual vivemos o nosso dia-a-dia. Tanto
+quanto percebo, estes são os estados mentais normais que o Buddha
+apontava e não os estados de concentração sobre-desenvolvidos.
+
+No primeiro ano da minha prática, estava por minha conta e conseguia
+alcançar estados mentais de concentração elevada, dos quais gostava
+muito. Depois fui para Wat Pah Pong (Tailândia), onde a ênfase era
+baseada em rotinas e viver de acordo com a disciplina do *Vinaya*. Ali
+tínhamos de ir à ronda da mendicância todas as manhãs, e fazer os
+cânticos da manhã e os cânticos da noite todos os dias. Se somos novos e
+saudáveis, então é esperado que se vá a muitas e longas rondas da
+mendicância - havia também pequenos percursos que os monges mais velhos
+e frágeis podiam fazer. Nesses dias, eu era muito vigoroso, e então
+participava sempre nessas extensas rondas da mendicância, regressando
+assim cansado. Ao chegarmos tínhamos então a refeição e à tarde havia
+tarefas para fazer. Não era possível, sob essas condições, permanecer
+num estado concentrado. A maior parte do dia ficava tomada pelas rotinas
+diárias.
+
+Cansei-me de tudo isso e fui procurar Luang Por Chah (Ajahn Chah) e
+disse-lhe: “Não consigo meditar aqui!” e ele começou a rir-se de mim e a
+dizer a todos que “o Sumedho não consegue meditar aqui!” Eu estava a ver
+a meditação como sendo essa experiência muito especial que tive e gostei
+muito; Luang Por Chah estava obviamente a mostrar-me que as rotinas
+diárias - o acordar, a ronda da mendicância e as tarefas - tudo isto
+servia para praticar a plena atenção. Ele não me pareceu, de todo,
+preocupado em apoiar a minha vontade de não fazer todas as pequenas
+tarefas diárias, motivado pela privação das fortes experiências
+sensoriais e, portanto, acabei por me conformar e aprender a meditar na
+comum e rotineira vida diária. Porém, a médio prazo, isso tornou-se
+muito útil.
+
+A vida nem sempre era como eu queria, pois normalmente queremos algo
+especial: adoramos ter fantásticas experiências de cor, maravilhosas
+realizações multicoloridas e incríveis momentos de felicidade, êxtase e
+arrebatamento – não apenas estar feliz e calmo mas sim estar para lá do
+céu!
+
+Mas, reflectindo na vida nesta forma humana - é assim mesmo - trata-se
+de termos a capacidade de nos sentarmos pacificamente e ficarmos
+contentes com aquilo que temos; é isso que faz com que a nossa vida seja
+uma experiência quotidiana alegre e não de sofrimento. E é deste modo
+que a maior parte da nossa vida pode ser vivida – não se pode viver em
+estados de euforia e êxtase a lavar pratos, não é? Costumava ler sobre
+as vidas dos santos que ficavam tão arrebatados em êxtases que não
+podiam fazer nada num nível mais prático. Ainda que o sangue fluísse das
+suas palmas e pudessem fazer as façanhas que fariam com que as pessoas
+de fé ficassem pasmadas só de olhar, no que toca a coisas práticas ou
+realistas, eram bastante incapazes.
+
+E apesar de tudo, quando contemplamos a disciplina do *Vinaya* em si
+mesma, vemos que ela é um treino em vigilância. É a vigilância que deve
+estar presente quando fabricamos os mantos, recolhemos as ofertas de
+alimentos, comemos ou tomamos conta do *kuti* (abrigo), e que nos indica
+o que fazer nesta ou naquela situação. É um conselho muito prático sobre
+a vida diária de um *bhikkhu*. Um dia vulgar na vida de Bhikkhu Sumedho
+não é explodir em êxtase mas sim acordar e ir à casa-de-banho, tomar
+banho, colocar o manto, fazer isto e aquilo; é somente estar vigilante
+enquanto estamos vivos nesta forma e aprender a despertar para o modo
+natural das coisas, despertar para o *Dhamma*.
+
+É por isso que quando contemplamos a cessação não procuramos o fim do
+universo, mas apenas a expiração da respiração, ou o final do dia, ou o
+fim do pensamento, ou o fim do sentimento. Dar atenção a isto significa
+que prestamos atenção ao fluxo da vida – temos mesmo que reparar na
+maneira como este fluxo é, em vez de esperar por uma fantástica
+experiência de luzes maravilhosas descendo sobre nós, fazendo *zapping*
+ou outra coisa do género.
+
+Agora, contemplem apenas a respiração normal do corpo. Irão reparar se
+estão a inspirar; é fácil concentrarmo-nos nisso. Quando enchemos os
+pulmões, temos uma sensação de crescimento, desenvolvimento e força.
+Quando dizemos que alguém está “inchado de orgulho” então provavelmente
+está a inspirar. É difícil sentir-se inchado enquanto se expira. Expanda
+o seu peito e terá a sensação de ser alguém grandioso e poderoso. Quando
+comecei a prestar atenção à expiração, a minha mente vagueava; expirar
+não me pareceu tão importante como inalar – expiramos só para chegar à
+próxima inspiração.
+
+Reflictamos: podemos observar a respiração, mas o que é aquele que
+observa? O que é isso que observa e conhece a inspiração e a expiração –
+não é a respiração, pois não? Podemos observar o pânico que surge quando
+tentamos respirar e não conseguimos; mas o observador, aquele que sabe,
+não é uma emoção, não é o ataque de pânico, não é expiração ou
+inspiração. Então, o nosso refúgio no Buddha é ser esse saber; ser a
+testemunha em vez de ser a emoção, a respiração ou o corpo.
+
+Com o som do silêncio, algumas pessoas ouvem flutuações de um som ou um
+som de fundo contínuo. Então podemos contemplar esse som - dar-lhe
+atenção - conseguem reparar nele se puserem os dedos nos ouvidos?
+Conseguem ouvi-lo num lugar onde alguém está a usar uma moto-serra? E
+enquanto fazem exercícios? Ou quando se encontram num estado emocional
+frágil? Podem usar este som do silêncio como algo que vos recorda que
+devem voltar a vossa atenção e reparar nele – porque está sempre
+presente aqui e agora. E aí está “aquilo que” presta atenção.
+
+Existe na mente o desejo de lhe chamar algo, de ter um nome para isso,
+tê-lo listado como uma realização ou projectar algo sobre isso. Reparem
+na tendência em querer torná-lo em algo. Alguém disse que é
+provavelmente o som do sangue a circular no ouvido, outros chamam-lhe o
+“som cósmico”, “a ponte com o Divino.” Isto soa melhor que “o sangue no
+ouvido.” Pode ser o som do Cosmos ou até pode ser que tenha uma doença
+no ouvido. Mas não tem que ser nada; é aquilo que é, é “como é.” O que
+quer que seja, pode ser usado como reflexão porque quando está presente,
+não existe o sentido de si próprio, existe vigilância, existe a
+capacidade de reflectir.
+
+É mais como um caminho a direito sobre o qual podemos andar, e que não
+nos deixa desequilibrar. É algo que pode ser usado para o nosso estado
+consciente na vida diária, enquanto vestimos o manto, escovamos os
+dentes, fechamos uma porta, quando entramos na sala de meditação ou
+quando nos sentamos. Muito da vida diária é apenas “normal” porque
+ansiamos por aquilo que consideramos serem as coisas importantes da vida
+- como por exemplo a meditação. Assim, caminhar de onde se vive até à
+sala de meditação pode ser uma experiência completamente descuidada –
+apenas um hábito – *clop, clop, clop, pum bang*! Então sentamo-nos por
+uma hora, tentando ser vigilantes.
+
+Deste modo, começamos a perceber uma maneira de estar vigilante, de
+trazer a vigilância para as actividades rotineiras e para as
+experiências da vida. Tenho uma pequena imagem no meu quarto - à qual
+sou muito afeiçoado - de um velho homem com uma caneca de café na sua
+mão, olhando pela janela para um jardim inglês, enquanto chove. O título
+da imagem é “Esperando.” É assim que penso em mim: um velho homem com a
+caneca do café, sentado na janela, esperando, esperando… observando a
+chuva, o sol ou outra coisa. Não vejo uma imagem depressiva mas antes
+uma imagem pacífica. Esta vida é apenas sobre esperar, não é? Esperamos
+o tempo todo – e então reparamos nisso. Não esperamos por alguma coisa
+em particular mas podemos simplesmente esperar. Então respondemos às
+coisas da vida, ao momento do dia, aos deveres, às coisas em movimento e
+mudando, como a sociedade em que estamos. Essa resposta não vem da força
+do hábito, da ganância, ódio ou ilusão mas é a resposta da sabedoria e
+atenção.
+
+Quantos de vós sentem que têm uma missão na vida? Algo que têm que
+realizar, um certo tipo de tarefa importante que vos foi atribuída por
+Deus, pelo destino ou algo. As pessoas são frequentemente apanhadas
+nesse ponto de vista de serem alguém com uma missão. Quem consegue estar
+presente com as coisas como elas são, tal como o corpo que cresce, fica
+velho e morre, respira e é consciente? Podemos praticar, viver dentro
+dos preceitos morais, fazer o bem, responder às necessidades da vida com
+consciência e sabedoria – mas não existe alguém que tenha que fazer
+alguma coisa. Não existe alguém com uma missão, ninguém especial; não
+estamos a fazer uma pessoa, ou um santo, ou um *avatar*, um *tulku* ou
+um messias, ou Maitreya. Mesmo que pensemos: “não sou ninguém”, mesmo
+“sendo ninguém” é ser alguém nesta vida, não é? Podemos sentir-nos
+orgulhosos de “sermos ninguém” tal como “sermos alguém” e estar
+ilusoriamente apegados a “ser ninguém”. Mas independentemente daquilo em
+que acreditamos, que somos ninguém ou alguém, que temos uma missão, que
+somos um estorvo e um peso para o mundo, ou como nos vemos a nós mesmos,
+então o saber estará lá para ver a cessação de tal percepção.
+
+As percepções aparecem e desaparecem, não é? “Sou alguém, sou uma pessoa
+importante na vida”: isso começa e termina na mente. Repare no finalizar
+de “ser alguém importante,” ou de “não ser ninguém” ou qualquer outra
+coisa – tudo acaba, não é? Tudo o que surge, cessa e com essa
+consciência não nos agarramos à ideia de sermos alguém ou ninguém. É o
+fim de toda essa massa de sofrimento – de ter que desenvolver algo,
+tornar-se alguém, mudar alguma coisa, fazer com que tudo esteja no sítio
+certo, livrar-se dos obstáculos interiores ou salvar o mundo. Mesmo os
+melhores ideais, os melhores pensamentos podem ser vistos como *dhammas*
+que surgem e cessam na mente.
+
+Podemos pensar que isto é uma filosofia estéril sobre a vida porque
+existe muita emoção e sentimento em ser-se alguém que vai salvar todos
+os seres sencientes. As pessoas com auto-sacrifício, que têm missões,
+que ajudam os outros e que têm algo importante a realizar, são uma
+inspiração. Mas quando observamos isso sob o *Dhamma*, vemos as
+limitações das aspirações e a sua cessação. Existe o *Dhamma* de tais
+aspirações e acções, em vez de alguém que tem que se tornar em algo ou
+fazer alguma coisa. Toda a ilusão é abandonada e o que sobra é a pureza
+da mente. Então a resposta à experiência vem da sabedoria e pureza em
+vez das convicções pessoais e missões com o seu sentido de si mesmo e
+dos outros, e todas as complicações que advêm de todo esse padrão
+ilusório.
+
+Podemos confiar nisto? Podemos confiar em largar tudo, cessar, não ser
+ninguém, não ter qualquer missão, não ter que se tornar em coisa alguma?
+Conseguimos confiar nisso ou sentimos que é assustador, árido ou
+depressivo? Talvez queiramos mesmo uma inspiração. “Diga-me que tudo
+está bem; diga-me que gosta de mim, que o que faço está correcto e que o
+Budismo não é uma religião egoísta onde nos tornamos iluminados para o
+nosso próprio proveito; diga-me que o Budismo está aqui para salvar
+todos os seres vivos. É isso que você vai fazer, Venerável Sumedho? Você
+é mesmo Mahāyāna ou é Hīnayāna?”
+
+O que estou a salientar é que a inspiração é uma experiência. Idealismo:
+não tentar rejeitá-la ou julgá-la de qualquer maneira, mas reflectir
+sobre ela, conhecer o que está na mente e como é fácil ficar iludido
+pelas nossas próprias ideias e opiniões elevadas. Também podemos ver,
+como podemos ser insensíveis, cruéis e indelicados devido ao apego que
+temos a pontos de vista sobre ser-se gentil e sensível. É aqui que está
+a verdadeira investigação do *Dhamma*.
+
+Recordo-me da minha própria experiência: sempre tive a sensação de que
+de alguma forma eu era alguém especial. Costumava pensar: “Bem, eu devo
+ser uma pessoa especial. Há muito tempo, quando eu era criança, era
+fascinado pela Ásia e assim que pude, estudei chinês na universidade;
+portanto certamente devo ter sido uma reincarnação de alguém ligado ao
+Oriente.”
+
+Mas considerem isto como uma reflexão: não interessa quantos sinais de
+ser alguém especial, ou de vidas passadas das quais nos possamos
+recordar, ou das vozes de Deus, ou mensagens do Cosmos, o que quer que
+seja - não para negar que essas coisas não são reais - mas que são
+impermanentes. Elas são *anicca, dukkha, e anatta*. Reflectimos sobre
+elas como elas realmente são – o que surge cessa: uma mensagem de Deus é
+algo que chega e cessa na mente, não é? Deus não está continuamente a
+falar com alguém a menos que queira considerar-se o silêncio como voz de
+Deus. Então, isso não quer dizer muito, pois não? Podemos chamar ao “som
+do silêncio” o que quisermos – voz de Deus, ou do Divino, chamada do
+Cosmos, o sangue a passar nos tímpanos, etc. Mas o que quer que seja,
+poderá ser usado para desenvolver a vigilância e a reflexão – é para
+isso que estou a apontar, como usar estas coisas sem as tornar em algo.
+
+Assim, as missões que temos são respostas naturais que acontecem na
+nossa vida – elas deixam de ser pessoais. Já não se trate de mim,
+Sumedho Bhikkhu, com uma missão, como se eu fosse especialmente
+escolhido de cima, mais do que qualquer um de vós. Deixa de ser isso.
+Toda essa percepção e maneira de pensar são abandonadas. E quer eu salve
+ou não o mundo, ou milhares de seres, ou ajude os pobres nos bairros de
+Calcutá, ou ajude a curar leprosos, e faça todo o género de bons
+trabalhos - não é por ter a ilusão de ser uma pessoa, mas como uma
+resposta natural da sabedoria.
+
+Nisto eu confio; é isto que é *saddha* – é a fé na palavra do Buddha.
+*Saddha* é a real fé e confiança no *Dhamma*; em esperar “ser ninguém” e
+não se tornar em algo mas ser capaz de apenas esperar e responder. E não
+há muito para responder, apenas esperar – caneca de café, observar a
+chuva, o pôr-do-sol, o envelhecer, testemunhar o envelhecimento, as
+entradas e saídas do mosteiro – as ordenações e as desistências, as
+aspirações e depressões, os altos e os baixos, dentro da mente, fora do
+mundo. E ocorre uma resposta porque temos vigor, inteligência e talento,
+e então a vida pede-nos para respondermos de forma hábil e com
+compaixão, algo que somos propensos e capazes de fazer. Gostamos de
+ajudar os outros. Não nos importamos de ir para uma colónia budista de
+leprosos – eu iria de bom grado – ou trabalhar nos bairros pobres de
+Calcutá ou algo assim; eu não teria objecções - esse tipo de coisas,
+apela bastante ao meu sentido de responsabilidade!
+
+Mas não é uma missão, não sou eu que tenho de fazer algo; é a confiança
+no *Dhamma.* Assim, a resposta à vida torna-se clara e benéfica porque
+não surge de mim como pessoa com as suas ilusões provindas da ignorância
+condicionando as formações mentais. Assim observamos a inquietação, as
+obsessões da mente e deixamo-las findar. Permitimos que partam e assim
+elas cessam.

@@ -1,0 +1,58 @@
+# Copyright
+
+Folhas da Árvore Bodhi
+
+Publicado por Publicações Sumedhārāma  
+[www.sumedharama.pt](http://sumedharama.pt)
+
+Este livro encontra-se disponível para distribuição gratuita em  
+[www.fsbooks.org](http://fsbooks.org/)
+
+This electronic edition was published on 2016-11-01.
+
+Digital Edition v1.0
+
+eBook ISBN 978-989-8691-38-5
+
+Editor: Appamādo Bhikkhu  
+Formatação: Venerável Gambhīro
+
+Traduzido do original ‘Leaves of the Bodhi Tree’
+
+Publicado por Amaravati Publications  
+Amaravati Buddhist Monastery  
+Hertfordshire, Great Britain  
+publications@amaravati.org
+
+Copyright &copy; Publicações Sumedhārāma 2017
+
+Este trabalho está licenciado com uma Licença Creative Commons
+Atribuição-NãoComercial-SemDerivações 4.0 Internacional.  
+<http://creativecommons.org/licenses/by-nc-nd/4.0/>
+
+Você tem o direito de:
+
+* Compartilhar — copiar e redistribuir o material em qualquer suporte ou formato
+
+O licenciante não pode revogar estes direitos desde que respeite os termos da licença.
+
+De acordo com os termos seguintes:
+
+* Atribuição — Deve atribuir o devido crédito, fornecer um link para a licença, e indicar se foram feitas alterações. Pode fazê-lo de qualquer forma razoável, mas não de uma forma que sugira que o licenciante o apoia ou aprova o seu uso.
+* NãoComercial — Não pode usar o material para fins comerciais.
+* SemDerivações — Se reestruturar, transformar, ou criar a partir do material, não pode distribuir o material modificado.
+
+Sem restrições adicionais — Não pode aplicar termos jurídicos ou medidas de caráter tecnológico que restrinjam legalmente outros de fazerem algo que a licença permita.
+
+Avisos:
+
+Não tem de cumprir com os termos da licença relativamente a elementos do material que estejam no domínio público ou cuja utilização seja permitida por uma expceção ou limitação que seja aplicável.
+
+Não são dadas quaisquer garantias. A licença pode não lhe dar todas as autorizações necessárias para o uso pretendido. Por exemplo, outros direitos, tais como direitos de imagem, de privacidade ou direitos morais, podem limitar o uso do material.
+
+As Publicações Sumedhārāma são parte do "Budismo Theravada da Floresta — Comunidade Religiosa", uma Pessoa Colectiva Religiosa registada em Portugal com o NIPC 592010040.
+
+O "Budismo Theravada da Floresta — Comunidade Religiosa", actuando como Publicações Sumedhārāma, reclama o direito moral de ser identiﬁcado como o autor deste livro.
+
+O "Budismo Theravada da Floresta — Comunidade Religiosa", requer que seja atribuída a autoria deste trabalho às Publicações Sumedhārāma sempre que este for reproduzido, distribuído, apresentado ou representado.
+
