@@ -7,6 +7,9 @@ auto/
 publish/epub/
 publish/mobi/
 publish/pdf/
+build/epub/
+build/mobi/
+build/html/
 build/latex/book_main.pdf
 build/latex/cover_back.pdf
 build/latex/cover_spine.pdf

@@ -1,5 +1,7 @@
-date: 2016-04-02
+date: 2016-11-01
 version: 'v1.0'
+
+# NOTE: Update copyright.md by hand when changing the above. It is not ERB template b/c of using mdbook.
 
 # Epub and Mobi
 # =============
