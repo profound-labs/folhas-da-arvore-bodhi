@@ -1,1 +1,1 @@
-exclude_assets: [ "cover.xcf", "buddho.jpg", "cover_photo.jpg", "sourcesanspro-extralight.ttf", ]
+exclude_assets: [ "cover.xcf", "buddho.jpg", "cover_photo.jpg", "sourcesanspro-extralight.ttf", "corner-decor.svg", "corner-decor-hflip.svg" ]

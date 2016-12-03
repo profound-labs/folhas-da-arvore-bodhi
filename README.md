@@ -3,20 +3,25 @@ Folhas da Árvore Bodhi
 
 *Ensinamentos de Ajahn Chah e seus discípulos*
 
-Paperback status: **IN PROGRESS**  
-Ebook status: **N/A**
+Sources: <https://github.com/profound-labs/folhas-da-arvore-bodhi>
 
-First edition
+## Editions
 
-ISBN for paperback: `978-989-8691-37-8`
+*First edition, 2016*
 
-ISBN for ebooks: `978-989-8691-38-5`
+Paperback: `978-989-8691-37-8`
+
+electronic: `978-989-8691-38-5`
 
 See the final files in the `publish/final/` folder.
 
-Github: <https://github.com/profound-labs/folhas-da-arvore-bodhi>
+## Software
 
-Produced with [LaTeX](http://latex-project.org/) and [Prophecy](https://github.com/profound-labs/prophecy).
+Mainmatter: LaTeX
+
+Cover: Scribus
+
+Ebooks: [Prophecy](https://github.com/profound-labs/prophecy)
 
 
 

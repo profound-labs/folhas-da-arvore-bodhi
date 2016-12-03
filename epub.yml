@@ -1,1 +1,1 @@
-exclude_assets: [ "cover.xcf", "buddho.jpg", "cover_photo.jpg", "sourcesanspro-extralight.ttf", "style-mobi-kf8.css" ]
+exclude_assets: [ "cover.xcf", "buddho.jpg", "cover_photo.jpg", "sourcesanspro-extralight.ttf", "style-mobi-kf8.css", "corner-decor.svg", "corner-decor-hflip.svg" ]

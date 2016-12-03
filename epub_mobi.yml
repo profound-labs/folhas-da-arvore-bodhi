@@ -1,30 +1,40 @@
 date: 2016-11-01
 version: 'v1.0'
 
-# NOTE: Update copyright.md by hand when changing the above. It is not ERB template b/c of using mdbook.
+# NOTE: Update copyright.md by hand when changing the above. It is not ERB
+# template because of using mdbook for the html version.
 
 # Epub and Mobi
 # =============
 
 bookid: "FolhasdaArvoraBodhiBookId"
 
+lang: pt
+
 toc:
   - { the_matter: frontmatter }
-  - { target: epub, title: "Cover", src: 'cover.xhtml.erb', layout: none, type: cover, linear: no }
-  - { target: epub, title: "Title Page", src: 'titlepage.xhtml.erb', type: title-page }
-  - { target: epub, title: "Contents", src: 'toc.xhtml.erb', type: toc }
-  - preface.md
-  - { target: mobi, title: "Title Page", src: 'titlepage.xhtml.erb', type: text, class: title-page }
-  - { target: mobi, title: "Contents", src: 'toc.xhtml.erb', type: toc }
+  - { target: epub, title: "Capa", src: 'cover.xhtml.erb', layout: none, type: cover, linear: no }
+  - { target: epub, title: "Título", src: 'titlepage.xhtml.erb', type: title-page }
+  - { target: epub, title: "Índice", src: 'toc.xhtml.erb', type: toc }
+  - nota-de-edicao.md
+  - { target: mobi, title: "Título", src: 'titlepage.xhtml.erb', type: text, class: title-page }
+  - { target: mobi, title: "Índice", src: 'toc.xhtml.erb', type: toc }
   - { the_matter: mainmatter, section_number: 1 }
-  - like-a-boat.md
-  - nameless-labyrinth.markdown
-  - time-machine.markdown
-  - { section_name: "Appendix", section_number: 1 }
-  - further-comments.markdown
+  - samma-samadhi.md
+  - nibbana.md
+  - perspectiva.md
+  - reparar.md
+  - plasticidade.md
+  - incondicionado.md
+  - liberdade.md
+  - practica-minhoca.md
+  - ser-ninguem.md
+  - emocoes-maduras.md
+  - silenciosa-atencao.md
+  - para-alem.md
+  - porque-ir.md
   - { the_matter: backmatter }
-  - glossary.md
-  - { title: "Copyright", src: 'copyright.md.erb', type: copyright-page }
+  - { title: "Copyright", src: 'copyright.md', type: copyright-page }
 
 subject: RELIGION / Buddhism / Theravada
 source: http://fsbooks.org
