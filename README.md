@@ -5,6 +5,23 @@ Folhas da Árvore Bodhi
 
 Sources: <https://github.com/profound-labs/folhas-da-arvore-bodhi>
 
+## Print Specs
+
+Page size: 6in x 9in
+
+Binding: perfect
+
+Cover: matt lamination
+
+## Fonts
+
+- Gentium Plus
+- Gentium Book Basic
+- Glacial Indifference
+- Alegreya Sans Light
+- Crimson Roman
+- Fira Sans
+
 ## Editions
 
 *First edition, 2016*
