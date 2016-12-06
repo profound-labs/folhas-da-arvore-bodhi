@@ -178,3 +178,6 @@ O que nos move na vida, a meio de incertezas e mudanças é aquilo que nos
 traz liberdade. As nossas intenções movem-nos e são o campo da nossa
 maior liberdade. Usar e estimular esta liberdade com sabedoria é o
 desafio.
+
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}

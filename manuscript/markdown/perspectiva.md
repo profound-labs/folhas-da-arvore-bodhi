@@ -626,6 +626,9 @@ Não importa quão genuínos os problemas, as responsabilidades, as paixões
 ou as experiências aparentem ser. Não temos de ser nada disso. Não há
 nenhuma identidade que *precisemos* ser. Não nos devemos apegar a nada.
 
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}
+
 [^1]: *Rigpa:* é o conhecimento proveniente da realização da nossa
     própria natureza, quando realizamos e sabemos que existe uma
     liberdade primordial, anterior à nossa identificação com a mente.

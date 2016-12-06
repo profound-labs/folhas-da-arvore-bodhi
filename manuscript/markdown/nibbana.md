@@ -174,6 +174,9 @@ como disse Ajahn Chah, onde se experiencia “a realidade do não-apego”.
 *Nibbāna* é uma realidade que cada um de nós pode conhecer por si mesmo
 - assim que reconhecermos e realizarmos o não-apego.
 
+*Tradução de Anagārika Filipe*
+{: style="text-align: right;"}
+
 [^1]: Catch 22 é um livro de Joseph Heller, onde predomina uma lógica
     auto-contraditória, repleta de paradoxos e contra-sensos, sendo
     circular e repetitiva; a irracionalidade lógica prevalece em todo o

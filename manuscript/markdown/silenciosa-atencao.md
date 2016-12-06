@@ -110,3 +110,6 @@ mudança para uma forma não-linear é semelhante. Não quer dizer que sejam
 iluminados mas serão capazes de compreender mais amplamente, ver mais
 assertivamente e abrirem-se para a forma como as coisas são. Confio
 nisto e vos ofereço.
+
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}

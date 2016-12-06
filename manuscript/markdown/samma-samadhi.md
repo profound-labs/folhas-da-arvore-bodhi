@@ -468,6 +468,9 @@ tragam-na de volta mais uma vez. Isto é o mesmo, no que diz respeito,
 quer ao corpo, quer à mente a prática continua desta forma. Por favor
 façam um esforço nesse sentido.
 
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}
+
 [^1]: O nível de *nada*, uma das “absorções sem forma”, por vezes
     chamada de sétimo *jhāna* ou absorção.
 

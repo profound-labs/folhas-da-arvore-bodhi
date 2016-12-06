@@ -263,3 +263,7 @@ um resultado pessoal. As pessoas enganam-se quando abordam a meditação
 com a ideia de alcançar ou realizar algo. Isso vem sempre do problema
 básico da ignorância e da visão pessoal, combinados com o desejo e a
 tentativa de agarrar-se a algo. E isso cria sempre sofrimento.
+
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}
+

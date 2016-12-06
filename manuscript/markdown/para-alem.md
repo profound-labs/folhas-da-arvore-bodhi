@@ -219,3 +219,6 @@ Leva muito tempo a chegarmos à raiz desta noção de nós próprios, pois
 está completamente infiltrada na nossa experiência consciente. Com a
 meditação, tomamos atenção a coisas comuns como a respiração e o corpo e
 então aprendemos a levar e a manter a nossa atenção no momento presente.
+
+*Tradução de Pedro Cruz*
+{: style="text-align: right;"}

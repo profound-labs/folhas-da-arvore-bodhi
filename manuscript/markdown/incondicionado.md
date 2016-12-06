@@ -596,3 +596,6 @@ consciência, como entidades independentes do condicionamento pessoal que
 nos cega para a verdade última.
 
 … ora então ofereço isto como reflexão…
+
+*Tradução de Dhammiko Bhikkhu*
+{: style="text-align: right;"}

@@ -157,3 +157,6 @@ Concentrados no momento presente e sem ambições pelo que vem a seguir,
 tudo o que podemos fazer é continuar a praticar e aceitar por completo o
 que temos à nossa volta. Observar como estas palavras nos afectam – este
 é o ponto de partida.
+
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}

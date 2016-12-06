@@ -246,6 +246,9 @@ confusão.
 
 *Evam.*
 
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}
+
 [^1]: *Anagarika*: no Budismo Theravada um(a) *Anagarika(ā)* (lit. “sem
     lar”) é aquele que deixou a maioria das suas posses e
     responsabilidades para se dedicar a tempo inteiro à prática budista.

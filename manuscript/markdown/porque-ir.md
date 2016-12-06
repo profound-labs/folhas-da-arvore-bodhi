@@ -219,3 +219,6 @@ ensinamentos para nos ajudar a mantermo-nos num percurso no qual por
 vezes parece impossível continuar!
 
 Possamos todos realizar a verdadeira liberdade.
+
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}

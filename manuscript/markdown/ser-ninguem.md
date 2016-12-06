@@ -253,3 +253,6 @@ não surge de mim como pessoa com as suas ilusões provindas da ignorância
 condicionando as formações mentais. Assim observamos a inquietação, as
 obsessões da mente e deixamo-las findar. Permitimos que partam e assim
 elas cessam.
+
+*Tradução de Pedro Cruz*
+{: style="text-align: right;"}

@@ -255,3 +255,6 @@ em contacto com essa realidade, o *Dhamma,* em nós. Todos os caminhos e
 disciplinas espirituais estão aqui como condições de suporte e meios
 para manter viva a aspiração de realizar a Verdade no nosso coração.
 Esse é o seu verdadeiro propósito.
+
+*Tradução de Appamādo Bhikkhu*
+{: style="text-align: right;"}
