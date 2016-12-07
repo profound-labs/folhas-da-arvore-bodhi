@@ -2,5 +2,7 @@
     "title": "Folhas da Árvore Bodhi",
     "author": "Ajahn Chah e seus discípulos",
     "description": "Ensinamentos de Ajahn Chah e seus discípulos",
-    "dest": "build/html"
+    "src": "manuscript/markdown",
+    "dest": "build/html",
+    "theme_path": "assets/sumedharama-theme"
 }

@@ -1,1 +1,1 @@
-![Cover](theme/cover.jpg)
+![Cover](images/cover.jpg)
