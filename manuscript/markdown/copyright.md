@@ -17,13 +17,6 @@ eBook ISBN 978-989-8691-38-5
 Editor: Appamādo Bhikkhu  
 Formatação: Venerável Gambhīro
 
-Traduzido do original ‘Leaves of the Bodhi Tree’
-
-Publicado por Amaravati Publications  
-Amaravati Buddhist Monastery  
-Hertfordshire, Great Britain  
-publications@amaravati.org
-
 Copyright &copy; Publicações Sumedhārāma 2017
 
 Este trabalho está licenciado com uma Licença Creative Commons
